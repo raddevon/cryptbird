@@ -13,6 +13,10 @@
     "bcrypt"
   ],
   "author": "Devon Campbell",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/raddevon/cryptbird.git"
+  },
   "license": "MIT",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
