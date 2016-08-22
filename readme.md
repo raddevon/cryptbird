@@ -28,7 +28,7 @@ var cryptbird = require('cryptbird');
 ### Generate a salt and encrypt a password
 
 ```
-return cryptbird.genSaltAsync().then(function(generatedSalt) {
+return cryptbird.genSaltAsync().then(function(salt) {
     return cryptbird.hashAsync(password, salt);
   }).then(function(hashedPassword) {
     // Store salted password in a database or your preferred persistent storage
