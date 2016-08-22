@@ -1,0 +1,21 @@
+{
+  "name": "cryptbird",
+  "version": "1.0.0",
+  "description": "bcrypt-nodejs promisified with Bluebird",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "encryption",
+    "promises",
+    "bluebird",
+    "bcrypt"
+  ],
+  "author": "Devon Campbell",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.4.1"
+  }
+}
