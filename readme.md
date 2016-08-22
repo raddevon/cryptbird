@@ -4,6 +4,10 @@ Cryptbird is a thin wrapper around [bcrypt-nodejs](https://github.com/shaneGiris
 
 Using Bluebird's `promisifyAll()` method to promisify all methods in bcrypt-nodejs does not work. This library manually promisifies all of the async functions and passes through both the synchronous functions and the original async functions from bcrypt-nodejs so developers can incrementally migrate their codebase without having to depend on both this package and bcrypt-nodejs. New Bluebird-promisified methods are provided as `<methodName>Async`. The original methods retain their original names. This package is a drop-in replacement for bcrypt-nodejs.
 
+## Installation
+
+Run `npm install cryptbird --save` to install Cryptbird and save it to your package.json.
+
 ## API
 
 In addition to the [original bcrypt-nodejs API](https://github.com/shaneGirish/bcrypt-nodejs#api), this package exposes three methods:
